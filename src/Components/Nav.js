@@ -4,7 +4,7 @@ import CustomLink from './CustomLink';
 const Nav = () => {
     return (
         <div>
-            <ul className={`md:flex justify-center absolute md:static w-full duration-500 ease-in`}>
+            <ul className={`flex justify-center w-full`}>
                 <CustomLink  className="mr-9" to="/">Home</CustomLink>
                 <CustomLink  className="mr-9" to="/login">Login</CustomLink>
                 {/* <CustomLink  className="mr-9" to="/posts">Posts</CustomLink>
